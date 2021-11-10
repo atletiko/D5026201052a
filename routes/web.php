@@ -25,3 +25,6 @@ Route::get('ets2021',"ViewController@showETS") ;
 
 Route::get('greetings',"ViewController@showGreetings") ;
 Route::post('sayhi',"ViewController@sayHi") ;
+
+Route::get('greetings2',"ViewController@showGreetings") ;
+Route::post('sayhi2',"ViewController@sayHi") ;
